@@ -1,0 +1,45 @@
+﻿# النماذج (كبيرة جداً)
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# بيانات
+data/*.json
+data/*.db
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# سجلات
+*.log
+nohup.out
+
+# ملفات مؤقتة
+tmp/
+temp/
+*.tmp

@@ -1,0 +1,6 @@
+--2026-05-31 22:16:58--  https://huggingface.co/bartowski/Llama-3.1-8B-Instruct-GGUF/resolve/main/Llama-3.1-8B-Instruct-Q4_K_M.gguf
+Resolving huggingface.co (huggingface.co)... 18.67.250.48, 18.67.250.31, 18.67.250.47, ...
+Connecting to huggingface.co (huggingface.co)|18.67.250.48|:443... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+
+Username/Password Authentication Failed.

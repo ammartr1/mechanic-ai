@@ -1,0 +1,12 @@
+﻿services:
+  - type: web
+    name: mechanic-ai-bot
+    env: python
+    buildCommand: pip install -r requirements_render.txt
+    startCommand: python bot/telegram_bot.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
+      - key: HF_SPACE_URL
+        sync: false
+    plan: free

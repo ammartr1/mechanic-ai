@@ -1,0 +1,24 @@
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
+accelerate
+bitsandbytes
+peft
+trl
+datasets
+unsloth
+llama-cpp-python
+fastapi
+uvicorn
+python-telegram-bot[socks]
+whisper-openai
+TTS
+Pillow
+moviepy
+opencv-python
+pypdf2
+beautifulsoup4
+wikipedia-api
+requests[socks]
+googlesearch-python
+chromadb
+gradio
